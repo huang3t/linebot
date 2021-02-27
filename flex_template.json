@@ -1,0 +1,114 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/OQtikiu.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "住家狀態",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "一氧化碳",
+                "color": "#999999",
+                "size": "md",
+                "flex": 3
+              },
+              {
+                "type": "text",
+                "text": "0.0001 ppm",
+                "wrap": true,
+                "color": "#666666",
+                "size": "md",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "液化石油氣",
+                "color": "#999999",
+                "size": "md",
+                "flex": 3
+              },
+              {
+                "type": "text",
+                "text": "0.000134 ppm",
+                "wrap": true,
+                "color": "#666666",
+                "size": "md",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "煙",
+                "color": "#999999",
+                "size": "md",
+                "flex": 3
+              },
+              {
+                "type": "text",
+                "text": "0.0001255 ppm",
+                "wrap": true,
+                "color": "#666666",
+                "size": "md",
+                "flex": 5,
+                "style": "normal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "查看近期資料分佈圖",
+          "uri": "https://i.imgur.com/XFsuZiq.png"
+        }
+      }
+    ]
+  }
+}

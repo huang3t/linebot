@@ -1,0 +1,145 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/dUYS0xw.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "你家著火啦 🔥🔥🔥",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#FF0000"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "一氧化碳",
+                "color": "#999999",
+                "size": "md",
+                "flex": 3
+              },
+              {
+                "type": "text",
+                "text": "0.0001 ppm",
+                "wrap": true,
+                "color": "#FF0000",
+                "size": "md",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "液化石油氣",
+                "color": "#999999",
+                "size": "md",
+                "flex": 3
+              },
+              {
+                "type": "text",
+                "text": "0.000134 ppm",
+                "wrap": true,
+                "color": "#FF0000",
+                "size": "md",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "煙",
+                "color": "#999999",
+                "size": "md",
+                "flex": 3
+              },
+              {
+                "type": "text",
+                "text": "0.0001255 ppm",
+                "wrap": true,
+                "color": "#FF0000",
+                "size": "md",
+                "flex": 5,
+                "style": "normal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "偵測到您的住宅煙霧指數超標",
+            "margin": "none",
+            "color": "#555555",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "已幫您自動開啟門窗以利逃生",
+            "color": "#555555"
+          }
+        ],
+        "spacing": "xs",
+        "margin": "md",
+        "alignItems": "center"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "secondary",
+        "height": "md",
+        "gravity": "center",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetStart": "none",
+        "offsetEnd": "none",
+        "position": "relative",
+        "margin": "none",
+        "action": {
+          "type": "postback",
+          "label": "撥打緊急電話",
+          "data": "119"
+        }
+      }
+    ]
+  }
+}
